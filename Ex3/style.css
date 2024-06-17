@@ -1,0 +1,44 @@
+body {
+  background: rgb(226, 226, 226);
+}
+.sidebar .nav-link {
+  color: rgb(85, 83, 83);
+}
+.sidebar .nav-link:hover {
+  background: #6c757d;
+  color: #fff;
+}
+.sidebar .nav-link .fas {
+  font-size: 20px;
+}
+.nav-item span {
+  margin-left: 10px;
+}
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.card .card-img-top {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.table th,
+.table td {
+  vertical-align: middle;
+}
+.table button {
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #6c757d;
+}
+.table button:hover {
+  background: #6c757d;
+  color: #fff;
+  transition: 0.5rem;
+}
